@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <title>Kealing CTE | Home</title>
+    </head>
+
+    <body>
+
+
+        <div class="grid-container">
+            <div class="header">
+                <canvas id="headerCanvas"></canvas>
+                <div class="subject" style="background-color: whitesmoke;">
+                    <div id="cs">Computer Science</div><hr>
+                    <div id="robotics">Robotics</div><hr>
+                    <div id="culinary">Culinary</div><hr>
+                </div>
+                <div class="footer">footer</div>
+            </div>
+        </div>
+        <div class ="main-container">
+            <header class="header el">
+                <canvas id="headerCanvas"></canvas>
+            </header>
+            <nav class="nav el">
+                <ul>
+                    <li>home</li>
+                    <li><a href="#" class="active">about</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">projects</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+            <div class=" el">
+                <div id= "cs" class="main-col main-content-compuer-science">Computer Science</div>
+                <div id = "culinary" class="main-col main-content-culinary">Culinary</div>
+                <div id = "robotics" class="main-col main-content-robotics"> Robotics</div>
+            </div>
+            <footer class="footer el">
+                <img src="./img/austinskyline.jpg">
+            </footer>
+        </div> 
+
+        <script src="script.js"></script>
+    </body>
+</html>
