@@ -1,5 +1,3 @@
-console.log('hi from js');
-
 let canvas = document.getElementById('headerCanvas')
 const ctx = canvas.getContext('2d');
 canvas.width = innerWidth;
